@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Madhukar_HelloWorld::helloworld" title="Hello World" module="Madhukar_HelloWorld" sortOrder="51" resource="Madhukar_HelloWorld::helloworld"/>
+        <add id="Madhukar_HelloWorld::post" title="Manage Posts" module="Madhukar_HelloWorld" sortOrder="10" action="Madhukar_helloworld/post" resource="Madhukar_HelloWorld::post" parent="Madhukar_HelloWorld::helloworld"/>
+        <add id="Madhukar_HelloWorld::hello_configuration" title="Configuration" module="Madhukar_HelloWorld" sortOrder="99" parent="Madhukar_HelloWorld::helloworld" action="adminhtml/system_config/edit/section/helloworld" resource="Madhukar_HelloWorld::helloworld_configuration"/>
+    </menu>
+</config>
