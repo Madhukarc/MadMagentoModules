@@ -1,5 +1,5 @@
 <?php
-namespace Madhukar\HelloWorld\Controller\Index;
+namespace MadMagentoModules\HelloWorld\Controller\Index;
 
 class Test extends \Magento\Framework\App\Action\Action
 {

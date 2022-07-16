@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
    <menu>
-       <add id="Madhukar_BackendMenuExample::menu" title="Madhukar Menu" module="Madhukar_BackendMenuExample" sortOrder="10" resource="Magento_Backend::content"/>
-	   <add id="Madhukar_BackendMenuExample::menu_item" title="Sub Menu" module="Madhukar_BackendMenuExample" sortOrder="20"  parent="Madhukar_BackendMenuExample::menu" action="BackendMenuExample/post" resource="Madhukar_BackendMenuExample::menu_item"/> 
-	   <add id="Madhukar_BackendMenuExample::menu_item2" title="Sub Menu2" module="Madhukar_BackendMenuExample" sortOrder="30"  parent="Madhukar_BackendMenuExample::menu" action="BackendMenuExample/Customer" resource="Madhukar_BackendMenuExample::menu_item2"/>
+       <add id="MadMagentoModules_BackendMenuExample::menu" title="Madhukar Menu" module="MadMagentoModules_BackendMenuExample" sortOrder="10" resource="Magento_Backend::content"/>
+	   <add id="MadMagentoModules_BackendMenuExample::menu_item" title="Sub Menu" module="MadMagentoModules_BackendMenuExample" sortOrder="20"  parent="MadMagentoModules_BackendMenuExample::menu" action="BackendMenuExample/post" resource="MadMagentoModules_BackendMenuExample::menu_item"/> 
+	   <add id="MadMagentoModules_BackendMenuExample::menu_item2" title="Sub Menu2" module="MadMagentoModules_BackendMenuExample" sortOrder="30"  parent="MadMagentoModules_BackendMenuExample::menu" action="BackendMenuExample/Customer" resource="MadMagentoModules_BackendMenuExample::menu_item2"/>
    </menu>
 </config>
