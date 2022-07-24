@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Catalog:etc/product_types.xsd">
+    <type name="new_product_type_code" label="My Product Type" modelInstance="MadMagentoModules\MyCustomProductType\Model\Product\Type\NewProductType">
+    <priceModel instance="Vendor\Module\Product\Type\Price" />
+    </type>
+    <composableTypes>
+        <type name="new_product_type_code" />
+    </composableTypes>
+</config>
